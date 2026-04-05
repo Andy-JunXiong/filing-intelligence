@@ -1,0 +1,25 @@
+companies:
+  - company_name: Microsoft
+    ticker: MSFT
+    cik: "0000789019"
+    filing_types:
+      - 10-K
+      - 10-Q
+  - company_name: NVIDIA
+    ticker: NVDA
+    cik: "0001045810"
+    filing_types:
+      - 10-K
+      - 10-Q
+  - company_name: Alphabet
+    ticker: GOOGL
+    cik: "0001652044"
+    filing_types:
+      - 10-K
+      - 10-Q
+  - company_name: Amazon
+    ticker: AMZN
+    cik: "0001018724"
+    filing_types:
+      - 10-K
+      - 10-Q
