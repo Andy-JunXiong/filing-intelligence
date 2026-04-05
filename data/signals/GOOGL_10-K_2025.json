@@ -1,0 +1,28 @@
+{
+  "company": "GOOGL",
+  "filing_type": "10-K",
+  "filing_date": "2025-02-05",
+  "metrics": {
+    "operating_margin": 0.265,
+    "net_margin": 0.212,
+    "capex_ratio": 0.111,
+    "revenue_growth": -0.08,
+    "operating_income_growth": -0.112,
+    "net_income_growth": -0.187
+  },
+  "signals": [
+    {
+      "type": "ai_platform_scale",
+      "value": 0.111,
+      "signal": "AI Platform Scale"
+    }
+  ],
+  "warnings": [],
+  "quality": {
+    "confidence": "high",
+    "warnings": [],
+    "missing_growth_inputs": [],
+    "missing_metric_outputs": [],
+    "notes": []
+  }
+}

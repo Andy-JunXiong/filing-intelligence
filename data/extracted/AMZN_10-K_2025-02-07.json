@@ -1,0 +1,117 @@
+{
+  "ticker": "AMZN",
+  "filing_type": "10-K",
+  "filing_date": "2025-02-07",
+  "company": "Amazon",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1018724/000101872425000004/amzn-20241231.htm",
+  "financial_metrics": {
+    "revenue": {
+      "value": 513983,
+      "numeric_value": 513983,
+      "raw_value": "513,983",
+      "unit": "million_usd",
+      "source_keyword": "net sales",
+      "source_snippet": "Total net sales 513,983 574,785 637,959 Operating expenses: Cost of sales 288,831",
+      "section": "financials",
+      "raw_match": "513,983"
+    },
+    "previous_revenue": {
+      "value": 574785,
+      "numeric_value": 574785,
+      "raw_value": "574,785",
+      "unit": "million_usd",
+      "source_keyword": "net sales",
+      "source_snippet": "Total net sales 513,983 574,785 637,959 Operating expenses: Cost of sales 288,831",
+      "section": "financials",
+      "raw_match": "574,785"
+    },
+    "operating_income": {
+      "value": 12248,
+      "numeric_value": 12248,
+      "raw_value": "12,248",
+      "unit": "million_usd",
+      "source_keyword": "operating income",
+      "source_snippet": "Operating income 12,248 36,852 68,593 Interest income 989 2,949",
+      "section": "financials",
+      "raw_match": "12,248"
+    },
+    "previous_operating_income": {
+      "value": 36852,
+      "numeric_value": 36852,
+      "raw_value": "36,852",
+      "unit": "million_usd",
+      "source_keyword": "operating income",
+      "source_snippet": "Operating income 12,248 36,852 68,593 Interest income 989 2,949",
+      "section": "financials",
+      "raw_match": "36,852"
+    },
+    "net_income": {
+      "value": 2722,
+      "numeric_value": 2722,
+      "raw_value": "2,722",
+      "unit": "million_usd",
+      "source_keyword": "net income",
+      "source_snippet": "Net income (loss) ( 2,722 ) 30,425 59,248 Adjustments to reconcile net income (loss) to net cash from operating activities: Depreciation and amortization of property and equipment and capitalized content costs, operating lease assets, and other 41,921",
+      "section": "financials",
+      "raw_match": "2,722"
+    },
+    "previous_net_income": {
+      "value": 30425,
+      "numeric_value": 30425,
+      "raw_value": "30,425",
+      "unit": "million_usd",
+      "source_keyword": "net income",
+      "source_snippet": "Net income (loss) ( 2,722 ) 30,425 59,248 Adjustments to reconcile net income (loss) to net cash from operating activities: Depreciation and amortization of property and equipment and capitalized content costs, operating lease assets, and other 41,921",
+      "section": "financials",
+      "raw_match": "30,425"
+    },
+    "capex": {
+      "value": 31,
+      "numeric_value": 31,
+      "raw_value": "31,",
+      "unit": "million_usd",
+      "source_keyword": "additions to property and equipment",
+      "source_snippet": "Total net additions to property and equipment include technology infrastructure assets, which are allocated among the segments based on usage, with the majority allocated to the AWS segment. Total net additions to property and equipment include the effect of non-cash activity such as property and equipment acquired but not yet paid for. Total net additions to property and equipment are as follows (in millions): Year Ended December 31,",
+      "section": "financials",
+      "raw_match": "31,"
+    }
+  },
+  "quality": {
+    "confidence": "high",
+    "warnings": [],
+    "missing_current_metrics": [],
+    "missing_prior_metrics": [],
+    "fallback_metrics": [],
+    "incomplete_evidence_metrics": [],
+    "evidence": {
+      "revenue": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "operating_income": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "net_income": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "capex": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "previous_revenue": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "previous_operating_income": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "previous_net_income": {
+        "present": true,
+        "has_full_evidence": true
+      }
+    }
+  }
+}

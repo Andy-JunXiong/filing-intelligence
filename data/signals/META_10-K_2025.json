@@ -1,0 +1,38 @@
+{
+  "company": "META",
+  "filing_type": "10-K",
+  "filing_date": "2025-01-30",
+  "metrics": {
+    "operating_margin": 0.422,
+    "net_margin": 0.379,
+    "capex_ratio": 0.226,
+    "revenue_growth": 0.219,
+    "operating_income_growth": 0.484,
+    "net_income_growth": 0.595
+  },
+  "signals": [
+    {
+      "type": "capex_intensity",
+      "value": 0.226,
+      "signal": "High infrastructure investment"
+    },
+    {
+      "type": "operating_margin",
+      "value": 0.422,
+      "signal": "High profitability"
+    },
+    {
+      "type": "ai_infrastructure_builder",
+      "value": 0.226,
+      "signal": "AI Infrastructure Builder"
+    }
+  ],
+  "warnings": [],
+  "quality": {
+    "confidence": "high",
+    "warnings": [],
+    "missing_growth_inputs": [],
+    "missing_metric_outputs": [],
+    "notes": []
+  }
+}

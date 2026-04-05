@@ -1,0 +1,43 @@
+{
+  "company": "MSFT",
+  "filing_type": "10-K",
+  "filing_date": "2025-07-30",
+  "metrics": {
+    "operating_margin": 0.456,
+    "net_margin": 0.361,
+    "capex_ratio": 0.229,
+    "revenue_growth": 0.149,
+    "operating_income_growth": 0.174,
+    "net_income_growth": 0.155
+  },
+  "signals": [
+    {
+      "type": "capex_intensity",
+      "value": 0.229,
+      "signal": "High infrastructure investment"
+    },
+    {
+      "type": "operating_margin",
+      "value": 0.456,
+      "signal": "High profitability"
+    },
+    {
+      "type": "ai_infrastructure_builder",
+      "value": 0.229,
+      "signal": "AI Infrastructure Builder"
+    },
+    {
+      "type": "ai_platform_scale",
+      "value": 0.229,
+      "signal": "AI Platform Scale"
+    }
+  ],
+  "warnings": [],
+  "quality": {
+    "confidence": "high",
+    "warnings": [],
+    "missing_growth_inputs": [],
+    "missing_metric_outputs": [],
+    "notes": []
+  }
+}

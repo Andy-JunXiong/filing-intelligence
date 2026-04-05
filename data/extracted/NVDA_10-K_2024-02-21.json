@@ -1,0 +1,79 @@
+{
+  "ticker": "NVDA",
+  "filing_type": "10-K",
+  "filing_date": "2024-02-21",
+  "company": "NVIDIA",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581024000029/nvda-20240128.htm",
+  "financial_metrics": {
+    "revenue": {
+      "value": 60922,
+      "numeric_value": 60922,
+      "raw_value": "60,922",
+      "unit": "million_usd",
+      "source_keyword": "revenue",
+      "source_snippet": "Revenue $ 60,922 $ 26,974 $ 26,914",
+      "section": "financials",
+      "raw_match": "60,922"
+    },
+    "previous_revenue": {
+      "value": 26974,
+      "numeric_value": 26974,
+      "raw_value": "26,974",
+      "unit": "million_usd",
+      "source_keyword": "revenue",
+      "source_snippet": "Revenue $ 60,922 $ 26,974 $ 26,914",
+      "section": "financials",
+      "raw_match": "26,974"
+    },
+    "operating_income": {
+      "value": 32972,
+      "numeric_value": 32972,
+      "raw_value": "32,972",
+      "unit": "million_usd",
+      "source_keyword": "operating income",
+      "source_snippet": "Operating income 32,972 4,224 10,041 Interest income 866 267",
+      "section": "financials",
+      "raw_match": "32,972"
+    },
+    "previous_operating_income": {
+      "value": 4224,
+      "numeric_value": 4224,
+      "raw_value": "4,224",
+      "unit": "million_usd",
+      "source_keyword": "operating income",
+      "source_snippet": "Operating income 32,972 4,224 10,041 Interest income 866 267",
+      "section": "financials",
+      "raw_match": "4,224"
+    },
+    "net_income": {
+      "value": 29760,
+      "numeric_value": 29760,
+      "raw_value": "29,760",
+      "unit": "million_usd",
+      "source_keyword": "net income",
+      "source_snippet": "Net income $ 29,760 $ 4,368 $ 9,752",
+      "section": "financials",
+      "raw_match": "29,760"
+    },
+    "previous_net_income": {
+      "value": 4368,
+      "numeric_value": 4368,
+      "raw_value": "4,368",
+      "unit": "million_usd",
+      "source_keyword": "net income",
+      "source_snippet": "Net income $ 29,760 $ 4,368 $ 9,752",
+      "section": "financials",
+      "raw_match": "4,368"
+    },
+    "capex": {
+      "value": 1069,
+      "numeric_value": 1069,
+      "raw_value": "1,069",
+      "unit": "million_usd",
+      "source_keyword": "purchases related to property and equipment",
+      "source_snippet": "Purchases related to property and equipment and intangible assets ( 1,069 )",
+      "section": "financials",
+      "raw_match": "1,069"
+    }
+  }
+}

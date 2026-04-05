@@ -1,0 +1,17 @@
+{
+  "company": "NVDA",
+  "filing_type": "10-K",
+  "filing_date": "2026-02-25",
+  "metrics": {
+    "operating_margin": 0.624,
+    "net_margin": 0.558,
+    "capex_ratio": 0.025
+  },
+  "signals": [
+    {
+      "type": "operating_margin",
+      "value": 0.624,
+      "signal": "High profitability"
+    }
+  ]
+}

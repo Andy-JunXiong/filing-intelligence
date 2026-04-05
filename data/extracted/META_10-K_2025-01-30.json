@@ -1,0 +1,120 @@
+{
+  "ticker": "META",
+  "filing_type": "10-K",
+  "filing_date": "2025-01-30",
+  "company": "Meta Platforms",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1326801/000132680125000017/meta-20241231.htm",
+  "financial_metrics": {
+    "revenue": {
+      "value": 164501,
+      "numeric_value": 164501,
+      "raw_value": "164,501",
+      "unit": "million_usd",
+      "source_keyword": "revenue",
+      "source_snippet": "Revenue $ 164,501 $ 134,902 $ 116,609",
+      "section": "financials",
+      "raw_match": "164,501"
+    },
+    "previous_revenue": {
+      "value": 134902,
+      "numeric_value": 134902,
+      "raw_value": "134,902",
+      "unit": "million_usd",
+      "source_keyword": "revenue",
+      "source_snippet": "Revenue $ 164,501 $ 134,902 $ 116,609",
+      "section": "financials",
+      "raw_match": "134,902"
+    },
+    "operating_income": {
+      "value": 69380,
+      "numeric_value": 69380,
+      "raw_value": "69,380",
+      "unit": "million_usd",
+      "source_keyword": "income from operations",
+      "source_snippet": "Income from operations 69,380 46,751 28,944 Interest and other income (expense), net 1,283 677",
+      "section": "financials",
+      "raw_match": "69,380"
+    },
+    "previous_operating_income": {
+      "value": 46751,
+      "numeric_value": 46751,
+      "raw_value": "46,751",
+      "unit": "million_usd",
+      "source_keyword": "income from operations",
+      "source_snippet": "Income from operations 69,380 46,751 28,944 Interest and other income (expense), net 1,283 677",
+      "section": "financials",
+      "raw_match": "46,751"
+    },
+    "net_income": {
+      "value": 62360,
+      "numeric_value": 62360,
+      "raw_value": "62,360",
+      "unit": "million_usd",
+      "source_keyword": "net income",
+      "source_snippet": "Net income $ 62,360 $ 39,098 $ 23,200",
+      "section": "financials",
+      "raw_match": "62,360"
+    },
+    "previous_net_income": {
+      "value": 39098,
+      "numeric_value": 39098,
+      "raw_value": "39,098",
+      "unit": "million_usd",
+      "source_keyword": "net income",
+      "source_snippet": "Net income $ 62,360 $ 39,098 $ 23,200",
+      "section": "financials",
+      "raw_match": "39,098"
+    },
+    "capex": {
+      "value": 37256,
+      "numeric_value": 37256,
+      "raw_value": "37,256",
+      "unit": "million_usd",
+      "source_keyword": "purchases of property and equipment",
+      "source_snippet": "Purchases of property and equipment ( 37,256 )",
+      "section": "financials",
+      "raw_match": "37,256"
+    }
+  },
+  "quality": {
+    "confidence": "medium",
+    "warnings": [],
+    "missing_current_metrics": [],
+    "missing_prior_metrics": [],
+    "fallback_metrics": [
+      "revenue",
+      "previous_revenue"
+    ],
+    "incomplete_evidence_metrics": [],
+    "evidence": {
+      "revenue": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "operating_income": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "net_income": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "capex": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "previous_revenue": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "previous_operating_income": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "previous_net_income": {
+        "present": true,
+        "has_full_evidence": true
+      }
+    }
+  }
+}

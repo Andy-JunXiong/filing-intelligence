@@ -1,0 +1,79 @@
+{
+  "ticker": "NVDA",
+  "filing_type": "10-K",
+  "filing_date": "2023-02-24",
+  "company": "NVIDIA",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1045810/000104581023000017/nvda-20230129.htm",
+  "financial_metrics": {
+    "revenue": {
+      "value": 26974,
+      "numeric_value": 26974,
+      "raw_value": "26,974",
+      "unit": "million_usd",
+      "source_keyword": "revenue",
+      "source_snippet": "Revenue $ 26,974 $ 26,914 $ 16,675",
+      "section": "financials",
+      "raw_match": "26,974"
+    },
+    "previous_revenue": {
+      "value": 26914,
+      "numeric_value": 26914,
+      "raw_value": "26,914",
+      "unit": "million_usd",
+      "source_keyword": "revenue",
+      "source_snippet": "Revenue $ 26,974 $ 26,914 $ 16,675",
+      "section": "financials",
+      "raw_match": "26,914"
+    },
+    "operating_income": {
+      "value": 2023,
+      "numeric_value": 2023,
+      "raw_value": "2023,",
+      "unit": "million_usd",
+      "source_keyword": "operating income",
+      "source_snippet": "In February 2023, we completed an assessment of the useful lives of our property, plant, and equipment. Based on advances in technology and usage rate, we increased the estimated useful life of a majority of the server, storage, and network equipment from three to a range of four to five years , and assembly and test equipment from five to seven years . This change in accounting estimate became effective at the beginning of fiscal year 2024. Based on the carrying amounts of a majority of our server, storage, network, and assembly and test equipment, net in use as of the end of fiscal year 2023, it is estimated this change will increase our fiscal year 2024 operating income by $ 133 million as a result of the reduction in depreciation expense. Revenue Recognition We derive our revenue from product sales, including hardware and systems, license and development arrangements, software licensing, and cloud services. We determine revenue recognition through the following steps: (1) identification of the contract with a customer; (2) identification of the performance obligations in the contract; (3) determination of the transaction price; (4) allocation of the transaction price to the performance obligations in the contract (where revenue is allocated on a relative standalone selling price basis by maximizing the use of observable inputs to determine the standalone selling price for each performance obligation); and (5) recognition of revenue when, or as, we satisfy a performance obligation. Product Sales Revenue Revenue from product sales is recognized upon transfer of control of products to customers in an amount that reflects the consideration we expect to receive in exchange for those products. Certain products are 59 Table of Contents",
+      "section": "financials",
+      "raw_match": "2023,"
+    },
+    "previous_operating_income": {
+      "value": 2023,
+      "numeric_value": 2023,
+      "raw_value": "2023,",
+      "unit": "million_usd",
+      "source_keyword": "operating income",
+      "source_snippet": "In February 2023, we completed an assessment of the useful lives of our property, plant, and equipment. Based on advances in technology and usage rate, we increased the estimated useful life of a majority of the server, storage, and network equipment from three to a range of four to five years , and assembly and test equipment from five to seven years . This change in accounting estimate became effective at the beginning of fiscal year 2024. Based on the carrying amounts of a majority of our server, storage, network, and assembly and test equipment, net in use as of the end of fiscal year 2023, it is estimated this change will increase our fiscal year 2024 operating income by $ 133 million as a result of the reduction in depreciation expense. Revenue Recognition We derive our revenue from product sales, including hardware and systems, license and development arrangements, software licensing, and cloud services. We determine revenue recognition through the following steps: (1) identification of the contract with a customer; (2) identification of the performance obligations in the contract; (3) determination of the transaction price; (4) allocation of the transaction price to the performance obligations in the contract (where revenue is allocated on a relative standalone selling price basis by maximizing the use of observable inputs to determine the standalone selling price for each performance obligation); and (5) recognition of revenue when, or as, we satisfy a performance obligation. Product Sales Revenue Revenue from product sales is recognized upon transfer of control of products to customers in an amount that reflects the consideration we expect to receive in exchange for those products. Certain products are 59 Table of Contents",
+      "section": "financials",
+      "raw_match": "2023,"
+    },
+    "net_income": {
+      "value": 4368,
+      "numeric_value": 4368,
+      "raw_value": "4,368",
+      "unit": "million_usd",
+      "source_keyword": "net income",
+      "source_snippet": "Net income $ 4,368 $ 9,752 $ 4,332",
+      "section": "financials",
+      "raw_match": "4,368"
+    },
+    "previous_net_income": {
+      "value": 9752,
+      "numeric_value": 9752,
+      "raw_value": "9,752",
+      "unit": "million_usd",
+      "source_keyword": "net income",
+      "source_snippet": "Net income $ 4,368 $ 9,752 $ 4,332",
+      "section": "financials",
+      "raw_match": "9,752"
+    },
+    "capex": {
+      "value": 1833,
+      "numeric_value": 1833,
+      "raw_value": "1,833",
+      "unit": "million_usd",
+      "source_keyword": "purchases related to property and equipment",
+      "source_snippet": "Purchases related to property and equipment and intangible assets ( 1,833 )",
+      "section": "financials",
+      "raw_match": "1,833"
+    }
+  }
+}

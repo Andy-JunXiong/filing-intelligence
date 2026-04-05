@@ -1,0 +1,120 @@
+{
+  "ticker": "GOOGL",
+  "filing_type": "10-K",
+  "filing_date": "2025-02-05",
+  "company": "Alphabet",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/1652044/000165204425000014/goog-20241231.htm",
+  "financial_metrics": {
+    "revenue": {
+      "value": 282836,
+      "numeric_value": 282836,
+      "raw_value": "282,836",
+      "unit": "million_usd",
+      "source_keyword": "revenues",
+      "source_snippet": "Revenues $ 282,836 $ 307,394 $ 350,018",
+      "section": "financials",
+      "raw_match": "282,836"
+    },
+    "previous_revenue": {
+      "value": 307394,
+      "numeric_value": 307394,
+      "raw_value": "307,394",
+      "unit": "million_usd",
+      "source_keyword": "revenues",
+      "source_snippet": "Revenues $ 282,836 $ 307,394 $ 350,018",
+      "section": "financials",
+      "raw_match": "307,394"
+    },
+    "operating_income": {
+      "value": 74842,
+      "numeric_value": 74842,
+      "raw_value": "74,842",
+      "unit": "million_usd",
+      "source_keyword": "income from operations",
+      "source_snippet": "Income from operations 74,842 84,293 112,390 Other income (expense), net ( 3,514 ) 1,424",
+      "section": "financials",
+      "raw_match": "74,842"
+    },
+    "previous_operating_income": {
+      "value": 84293,
+      "numeric_value": 84293,
+      "raw_value": "84,293",
+      "unit": "million_usd",
+      "source_keyword": "income from operations",
+      "source_snippet": "Income from operations 74,842 84,293 112,390 Other income (expense), net ( 3,514 ) 1,424",
+      "section": "financials",
+      "raw_match": "84,293"
+    },
+    "net_income": {
+      "value": 59972,
+      "numeric_value": 59972,
+      "raw_value": "59,972",
+      "unit": "million_usd",
+      "source_keyword": "net income",
+      "source_snippet": "Net income $ 59,972 $ 73,795 $ 100,118",
+      "section": "financials",
+      "raw_match": "59,972"
+    },
+    "previous_net_income": {
+      "value": 73795,
+      "numeric_value": 73795,
+      "raw_value": "73,795",
+      "unit": "million_usd",
+      "source_keyword": "net income",
+      "source_snippet": "Net income $ 59,972 $ 73,795 $ 100,118",
+      "section": "financials",
+      "raw_match": "73,795"
+    },
+    "capex": {
+      "value": 31485,
+      "numeric_value": 31485,
+      "raw_value": "31,485",
+      "unit": "million_usd",
+      "source_keyword": "purchases of property and equipment",
+      "source_snippet": "Purchases of property and equipment ( 31,485 )",
+      "section": "financials",
+      "raw_match": "31,485"
+    }
+  },
+  "quality": {
+    "confidence": "medium",
+    "warnings": [],
+    "missing_current_metrics": [],
+    "missing_prior_metrics": [],
+    "fallback_metrics": [
+      "revenue",
+      "previous_revenue"
+    ],
+    "incomplete_evidence_metrics": [],
+    "evidence": {
+      "revenue": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "operating_income": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "net_income": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "capex": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "previous_revenue": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "previous_operating_income": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "previous_net_income": {
+        "present": true,
+        "has_full_evidence": true
+      }
+    }
+  }
+}

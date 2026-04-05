@@ -18,7 +18,7 @@ def read_raw_filing_text(raw_filing: RawFiling) -> str:
 
 
 def parse_filing(raw_filing: RawFiling) -> ParsedFiling:
-    """Parse a stored raw filing into cleaned text and structured sections."""
+    """Parse a stored raw filing into cleaned text and best-effort sections."""
     raw_text = read_raw_filing_text(raw_filing)
     cleaned_text = clean_text(raw_text)
     sections = split_into_sections(cleaned_text)

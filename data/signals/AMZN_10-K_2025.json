@@ -1,0 +1,22 @@
+{
+  "company": "AMZN",
+  "filing_type": "10-K",
+  "filing_date": "2025-02-07",
+  "metrics": {
+    "operating_margin": 0.024,
+    "net_margin": 0.005,
+    "capex_ratio": 0.0,
+    "revenue_growth": -0.106,
+    "operating_income_growth": -0.668,
+    "net_income_growth": -0.911
+  },
+  "signals": [],
+  "warnings": [],
+  "quality": {
+    "confidence": "high",
+    "warnings": [],
+    "missing_growth_inputs": [],
+    "missing_metric_outputs": [],
+    "notes": []
+  }
+}

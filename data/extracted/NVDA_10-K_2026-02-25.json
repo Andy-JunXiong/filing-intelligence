@@ -1,0 +1,49 @@
+{
+  "ticker": "NVDA",
+  "filing_type": "10-K",
+  "filing_date": "2026-02-25",
+  "company": "NVIDIA",
+  "source_url": "local",
+  "financial_metrics": {
+    "revenue": {
+      "value": 130497,
+      "numeric_value": 130497,
+      "raw_value": "130,497",
+      "unit": "million_usd",
+      "source_keyword": "total revenue",
+      "source_snippet": "Total revenue 130,497",
+      "section": "financials",
+      "raw_match": "130,497"
+    },
+    "operating_income": {
+      "value": 81453,
+      "numeric_value": 81453,
+      "raw_value": "81,453",
+      "unit": "million_usd",
+      "source_keyword": "operating income",
+      "source_snippet": "Operating income 81,453",
+      "section": "financials",
+      "raw_match": "81,453"
+    },
+    "net_income": {
+      "value": 72880,
+      "numeric_value": 72880,
+      "raw_value": "72,880",
+      "unit": "million_usd",
+      "source_keyword": "net income",
+      "source_snippet": "Net income 72,880",
+      "section": "financials",
+      "raw_match": "72,880"
+    },
+    "capex": {
+      "value": 3236,
+      "numeric_value": 3236,
+      "raw_value": "3,236",
+      "unit": "million_usd",
+      "source_keyword": "additions to property and equipment",
+      "source_snippet": "Additions to property and equipment 3,236",
+      "section": "financials",
+      "raw_match": "3,236"
+    }
+  }
+}

@@ -1,0 +1,33 @@
+{
+  "company": "NVDA",
+  "filing_type": "10-K",
+  "filing_date": "2025-02-26",
+  "metrics": {
+    "operating_margin": 0.624,
+    "net_margin": 0.558,
+    "capex_ratio": 0.025,
+    "revenue_growth": 1.142,
+    "operating_income_growth": 1.47,
+    "net_income_growth": 1.449
+  },
+  "signals": [
+    {
+      "type": "operating_margin",
+      "value": 0.624,
+      "signal": "High profitability"
+    },
+    {
+      "type": "ai_hardware_platform",
+      "value": 0.624,
+      "signal": "AI Hardware Platform"
+    }
+  ],
+  "warnings": [],
+  "quality": {
+    "confidence": "high",
+    "warnings": [],
+    "missing_growth_inputs": [],
+    "missing_metric_outputs": [],
+    "notes": []
+  }
+}

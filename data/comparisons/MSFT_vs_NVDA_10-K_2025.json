@@ -1,0 +1,128 @@
+{
+  "companies": [
+    "MSFT",
+    "NVDA"
+  ],
+  "filing_type": "10-K",
+  "filing_year": "2025",
+  "filing_dates": {
+    "MSFT": "2025-07-30",
+    "NVDA": "2025-02-26"
+  },
+  "comparability": {
+    "same_filing_year": true,
+    "non_comparable_fields": []
+  },
+  "metrics": {
+    "revenue": {
+      "MSFT": 281724,
+      "NVDA": 130497,
+      "higher": "MSFT",
+      "comparable": true
+    },
+    "operating_margin": {
+      "MSFT": 0.456,
+      "NVDA": 0.624,
+      "higher": "NVDA",
+      "comparable": true
+    },
+    "net_margin": {
+      "MSFT": 0.361,
+      "NVDA": 0.558,
+      "higher": "NVDA",
+      "comparable": true
+    },
+    "capex_ratio": {
+      "MSFT": 0.229,
+      "NVDA": 0.025,
+      "higher": "MSFT",
+      "comparable": true
+    },
+    "revenue_growth": {
+      "MSFT": 0.149,
+      "NVDA": 1.142,
+      "higher": "NVDA",
+      "comparable": true
+    },
+    "operating_income_growth": {
+      "MSFT": 0.174,
+      "NVDA": 1.47,
+      "higher": "NVDA",
+      "comparable": true
+    },
+    "net_income_growth": {
+      "MSFT": 0.155,
+      "NVDA": 1.449,
+      "higher": "NVDA",
+      "comparable": true
+    }
+  },
+  "signals": {
+    "MSFT": [
+      "High infrastructure investment",
+      "High profitability",
+      "AI Infrastructure Builder",
+      "AI Platform Scale"
+    ],
+    "NVDA": [
+      "High profitability",
+      "AI Hardware Platform"
+    ]
+  },
+  "insights": {
+    "MSFT": [
+      {
+        "text": "The company combines strong profitability with elevated infrastructure investment, suggesting capacity to fund long-term AI expansion.",
+        "evidence": {
+          "operating_margin": 0.456,
+          "capex_ratio": 0.229,
+          "signals": [
+            "High infrastructure investment",
+            "High profitability"
+          ]
+        }
+      },
+      {
+        "text": "The company is investing heavily in infrastructure relative to revenue.",
+        "evidence": {
+          "capex_ratio": 0.229,
+          "signal": "High infrastructure investment"
+        }
+      },
+      {
+        "text": "The company maintains strong operating profitability.",
+        "evidence": {
+          "operating_margin": 0.456,
+          "signal": "High profitability"
+        }
+      }
+    ],
+    "NVDA": [
+      {
+        "text": "The company maintains strong operating profitability.",
+        "evidence": {
+          "operating_margin": 0.624,
+          "signal": "High profitability"
+        }
+      }
+    ]
+  },
+  "takeaways": [
+    "NVDA shows the stronger operating profitability.",
+    "MSFT shows higher infrastructure investment intensity relative to revenue.",
+    "MSFT reports the higher revenue in the selected filing year.",
+    "NVDA shows the stronger revenue growth.",
+    "NVDA shows the stronger net income growth."
+  ],
+  "ai_infrastructure_landscape": {
+    "infrastructure_builders": [
+      "MSFT"
+    ],
+    "ai_hardware_platforms": [
+      "NVDA"
+    ],
+    "ai_platform_scale_leaders": [
+      "MSFT"
+    ]
+  }
+}

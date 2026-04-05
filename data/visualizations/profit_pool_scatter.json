@@ -1,0 +1,644 @@
+{
+  "dataset": "profit_pool_scatter",
+  "title": "Profit Pool Map",
+  "filing_type": "10-K",
+  "filing_year": "2025",
+  "x_metric": "revenue",
+  "y_metric": "operating_margin",
+  "point_count": 5,
+  "points": [
+    {
+      "company": "MSFT",
+      "x": 281724,
+      "y": 0.456,
+      "revenue": 281724,
+      "metrics": {
+        "revenue": 281724,
+        "operating_margin": 0.456,
+        "net_margin": 0.361,
+        "capex_ratio": 0.229,
+        "revenue_growth": 0.149,
+        "operating_income_growth": 0.174,
+        "net_income_growth": 0.155
+      },
+      "signals": [
+        "High infrastructure investment",
+        "High profitability",
+        "AI Infrastructure Builder",
+        "AI Platform Scale"
+      ],
+      "quality": {
+        "confidence": "high",
+        "warnings": [],
+        "notes": [
+          "All core metrics were extracted with high confidence for MSFT."
+        ],
+        "fallback_metrics": [],
+        "missing_prior_metrics": [],
+        "evidence": {
+          "revenue": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "operating_income": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "net_income": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "capex": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "previous_revenue": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "previous_operating_income": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "previous_net_income": {
+            "present": true,
+            "has_full_evidence": true
+          }
+        }
+      },
+      "evidence": {
+        "revenue": {
+          "numeric_value": 281724,
+          "unit": "million_usd",
+          "source_keyword": "total revenue",
+          "source_snippet": "Total revenue 281,724 245,122 211,915 Cost of revenue: Product 13,501",
+          "section": "financials",
+          "raw_match": "281,724"
+        },
+        "operating_income": {
+          "numeric_value": 128528,
+          "unit": "million_usd",
+          "source_keyword": "operating income",
+          "source_snippet": "Operating income 128,528 109,433 88,523 Other income (expense), net ( 4,901 )",
+          "section": "financials",
+          "raw_match": "128,528"
+        },
+        "net_income": {
+          "numeric_value": 101832,
+          "unit": "million_usd",
+          "source_keyword": "net income",
+          "source_snippet": "Net income $ 101,832 $ 88,136 $ 72,361",
+          "section": "financials",
+          "raw_match": "101,832"
+        },
+        "capex": {
+          "numeric_value": 64551,
+          "unit": "million_usd",
+          "source_keyword": "additions to property and equipment",
+          "source_snippet": "Additions to property and equipment ( 64,551",
+          "section": "financials",
+          "raw_match": "64,551"
+        },
+        "previous_revenue": {
+          "numeric_value": 245122,
+          "unit": "million_usd",
+          "source_keyword": "total revenue",
+          "source_snippet": "Total revenue 281,724 245,122 211,915 Cost of revenue: Product 13,501",
+          "section": "financials",
+          "raw_match": "245,122"
+        },
+        "previous_operating_income": {
+          "numeric_value": 109433,
+          "unit": "million_usd",
+          "source_keyword": "operating income",
+          "source_snippet": "Operating income 128,528 109,433 88,523 Other income (expense), net ( 4,901 )",
+          "section": "financials",
+          "raw_match": "109,433"
+        },
+        "previous_net_income": {
+          "numeric_value": 88136,
+          "unit": "million_usd",
+          "source_keyword": "net income",
+          "source_snippet": "Net income $ 101,832 $ 88,136 $ 72,361",
+          "section": "financials",
+          "raw_match": "88,136"
+        }
+      },
+      "takeaways": [
+        "The company combines strong profitability with elevated infrastructure investment, suggesting capacity to fund long-term AI expansion.",
+        "The company is investing heavily in infrastructure relative to revenue.",
+        "The company maintains strong operating profitability."
+      ],
+      "roles": {
+        "infrastructure_builder": true,
+        "ai_hardware_platform": false,
+        "ai_platform_scale": true
+      },
+      "comparable": true
+    },
+    {
+      "company": "NVDA",
+      "x": 130497,
+      "y": 0.624,
+      "revenue": 130497,
+      "metrics": {
+        "revenue": 130497,
+        "operating_margin": 0.624,
+        "net_margin": 0.558,
+        "capex_ratio": 0.025,
+        "revenue_growth": 1.142,
+        "operating_income_growth": 1.47,
+        "net_income_growth": 1.449
+      },
+      "signals": [
+        "High profitability",
+        "AI Hardware Platform"
+      ],
+      "quality": {
+        "confidence": "medium",
+        "warnings": [],
+        "notes": [
+          "NVDA revenue required fallback extraction logic."
+        ],
+        "fallback_metrics": [
+          "revenue",
+          "previous_revenue"
+        ],
+        "missing_prior_metrics": [],
+        "evidence": {
+          "revenue": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "operating_income": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "net_income": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "capex": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "previous_revenue": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "previous_operating_income": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "previous_net_income": {
+            "present": true,
+            "has_full_evidence": true
+          }
+        }
+      },
+      "evidence": {
+        "revenue": {
+          "numeric_value": 130497,
+          "unit": "million_usd",
+          "source_keyword": "revenue",
+          "source_snippet": "Revenue $ 130,497 $ 60,922 $ 26,974",
+          "section": "financials",
+          "raw_match": "130,497"
+        },
+        "operating_income": {
+          "numeric_value": 81453,
+          "unit": "million_usd",
+          "source_keyword": "operating income",
+          "source_snippet": "Operating income 81,453 32,972 4,224 Interest income 1,786 866",
+          "section": "financials",
+          "raw_match": "81,453"
+        },
+        "net_income": {
+          "numeric_value": 72880,
+          "unit": "million_usd",
+          "source_keyword": "net income",
+          "source_snippet": "Net income $ 72,880 $ 29,760 $ 4,368",
+          "section": "financials",
+          "raw_match": "72,880"
+        },
+        "capex": {
+          "numeric_value": 3236,
+          "unit": "million_usd",
+          "source_keyword": "purchases related to property and equipment",
+          "source_snippet": "Purchases related to property and equipment and intangible assets ( 3,236 )",
+          "section": "financials",
+          "raw_match": "3,236"
+        },
+        "previous_revenue": {
+          "numeric_value": 60922,
+          "unit": "million_usd",
+          "source_keyword": "revenue",
+          "source_snippet": "Revenue $ 130,497 $ 60,922 $ 26,974",
+          "section": "financials",
+          "raw_match": "60,922"
+        },
+        "previous_operating_income": {
+          "numeric_value": 32972,
+          "unit": "million_usd",
+          "source_keyword": "operating income",
+          "source_snippet": "Operating income 81,453 32,972 4,224 Interest income 1,786 866",
+          "section": "financials",
+          "raw_match": "32,972"
+        },
+        "previous_net_income": {
+          "numeric_value": 29760,
+          "unit": "million_usd",
+          "source_keyword": "net income",
+          "source_snippet": "Net income $ 72,880 $ 29,760 $ 4,368",
+          "section": "financials",
+          "raw_match": "29,760"
+        }
+      },
+      "takeaways": [
+        "The company maintains strong operating profitability."
+      ],
+      "roles": {
+        "infrastructure_builder": false,
+        "ai_hardware_platform": true,
+        "ai_platform_scale": false
+      },
+      "comparable": true
+    },
+    {
+      "company": "AMZN",
+      "x": 513983,
+      "y": 0.024,
+      "revenue": 513983,
+      "metrics": {
+        "revenue": 513983,
+        "operating_margin": 0.024,
+        "net_margin": 0.005,
+        "capex_ratio": 0.0,
+        "revenue_growth": -0.106,
+        "operating_income_growth": -0.668,
+        "net_income_growth": -0.911
+      },
+      "signals": [],
+      "quality": {
+        "confidence": "high",
+        "warnings": [],
+        "notes": [
+          "All core metrics were extracted with high confidence for AMZN."
+        ],
+        "fallback_metrics": [],
+        "missing_prior_metrics": [],
+        "evidence": {
+          "revenue": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "operating_income": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "net_income": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "capex": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "previous_revenue": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "previous_operating_income": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "previous_net_income": {
+            "present": true,
+            "has_full_evidence": true
+          }
+        }
+      },
+      "evidence": {
+        "revenue": {
+          "numeric_value": 513983,
+          "unit": "million_usd",
+          "source_keyword": "net sales",
+          "source_snippet": "Total net sales 513,983 574,785 637,959 Operating expenses: Cost of sales 288,831",
+          "section": "financials",
+          "raw_match": "513,983"
+        },
+        "operating_income": {
+          "numeric_value": 12248,
+          "unit": "million_usd",
+          "source_keyword": "operating income",
+          "source_snippet": "Operating income 12,248 36,852 68,593 Interest income 989 2,949",
+          "section": "financials",
+          "raw_match": "12,248"
+        },
+        "net_income": {
+          "numeric_value": 2722,
+          "unit": "million_usd",
+          "source_keyword": "net income",
+          "source_snippet": "Net income (loss) ( 2,722 ) 30,425 59,248 Adjustments to reconcile net income (loss) to net cash from operating activities: Depreciation and amortization of property and equipment and capitalized content costs, operating lease assets, and other 41,921",
+          "section": "financials",
+          "raw_match": "2,722"
+        },
+        "capex": {
+          "numeric_value": 31,
+          "unit": "million_usd",
+          "source_keyword": "additions to property and equipment",
+          "source_snippet": "Total net additions to property and equipment include technology infrastructure assets, which are allocated among the segments based on usage, with the majority allocated to the AWS segment. Total net additions to property and equipment include the effect of non-cash activity such as property and equipment acquired but not yet paid for. Total net additions to property and equipment are as follows (in millions): Year Ended December 31,",
+          "section": "financials",
+          "raw_match": "31,"
+        },
+        "previous_revenue": {
+          "numeric_value": 574785,
+          "unit": "million_usd",
+          "source_keyword": "net sales",
+          "source_snippet": "Total net sales 513,983 574,785 637,959 Operating expenses: Cost of sales 288,831",
+          "section": "financials",
+          "raw_match": "574,785"
+        },
+        "previous_operating_income": {
+          "numeric_value": 36852,
+          "unit": "million_usd",
+          "source_keyword": "operating income",
+          "source_snippet": "Operating income 12,248 36,852 68,593 Interest income 989 2,949",
+          "section": "financials",
+          "raw_match": "36,852"
+        },
+        "previous_net_income": {
+          "numeric_value": 30425,
+          "unit": "million_usd",
+          "source_keyword": "net income",
+          "source_snippet": "Net income (loss) ( 2,722 ) 30,425 59,248 Adjustments to reconcile net income (loss) to net cash from operating activities: Depreciation and amortization of property and equipment and capitalized content costs, operating lease assets, and other 41,921",
+          "section": "financials",
+          "raw_match": "30,425"
+        }
+      },
+      "takeaways": [],
+      "roles": {
+        "infrastructure_builder": false,
+        "ai_hardware_platform": false,
+        "ai_platform_scale": false
+      },
+      "comparable": true
+    },
+    {
+      "company": "GOOGL",
+      "x": 282836,
+      "y": 0.265,
+      "revenue": 282836,
+      "metrics": {
+        "revenue": 282836,
+        "operating_margin": 0.265,
+        "net_margin": 0.212,
+        "capex_ratio": 0.111,
+        "revenue_growth": -0.08,
+        "operating_income_growth": -0.112,
+        "net_income_growth": -0.187
+      },
+      "signals": [
+        "AI Platform Scale"
+      ],
+      "quality": {
+        "confidence": "medium",
+        "warnings": [],
+        "notes": [
+          "GOOGL revenue required fallback extraction logic."
+        ],
+        "fallback_metrics": [
+          "revenue",
+          "previous_revenue"
+        ],
+        "missing_prior_metrics": [],
+        "evidence": {
+          "revenue": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "operating_income": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "net_income": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "capex": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "previous_revenue": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "previous_operating_income": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "previous_net_income": {
+            "present": true,
+            "has_full_evidence": true
+          }
+        }
+      },
+      "evidence": {
+        "revenue": {
+          "numeric_value": 282836,
+          "unit": "million_usd",
+          "source_keyword": "revenues",
+          "source_snippet": "Revenues $ 282,836 $ 307,394 $ 350,018",
+          "section": "financials",
+          "raw_match": "282,836"
+        },
+        "operating_income": {
+          "numeric_value": 74842,
+          "unit": "million_usd",
+          "source_keyword": "income from operations",
+          "source_snippet": "Income from operations 74,842 84,293 112,390 Other income (expense), net ( 3,514 ) 1,424",
+          "section": "financials",
+          "raw_match": "74,842"
+        },
+        "net_income": {
+          "numeric_value": 59972,
+          "unit": "million_usd",
+          "source_keyword": "net income",
+          "source_snippet": "Net income $ 59,972 $ 73,795 $ 100,118",
+          "section": "financials",
+          "raw_match": "59,972"
+        },
+        "capex": {
+          "numeric_value": 31485,
+          "unit": "million_usd",
+          "source_keyword": "purchases of property and equipment",
+          "source_snippet": "Purchases of property and equipment ( 31,485 )",
+          "section": "financials",
+          "raw_match": "31,485"
+        },
+        "previous_revenue": {
+          "numeric_value": 307394,
+          "unit": "million_usd",
+          "source_keyword": "revenues",
+          "source_snippet": "Revenues $ 282,836 $ 307,394 $ 350,018",
+          "section": "financials",
+          "raw_match": "307,394"
+        },
+        "previous_operating_income": {
+          "numeric_value": 84293,
+          "unit": "million_usd",
+          "source_keyword": "income from operations",
+          "source_snippet": "Income from operations 74,842 84,293 112,390 Other income (expense), net ( 3,514 ) 1,424",
+          "section": "financials",
+          "raw_match": "84,293"
+        },
+        "previous_net_income": {
+          "numeric_value": 73795,
+          "unit": "million_usd",
+          "source_keyword": "net income",
+          "source_snippet": "Net income $ 59,972 $ 73,795 $ 100,118",
+          "section": "financials",
+          "raw_match": "73,795"
+        }
+      },
+      "takeaways": [],
+      "roles": {
+        "infrastructure_builder": false,
+        "ai_hardware_platform": false,
+        "ai_platform_scale": true
+      },
+      "comparable": true
+    },
+    {
+      "company": "META",
+      "x": 164501,
+      "y": 0.422,
+      "revenue": 164501,
+      "metrics": {
+        "revenue": 164501,
+        "operating_margin": 0.422,
+        "net_margin": 0.379,
+        "capex_ratio": 0.226,
+        "revenue_growth": 0.219,
+        "operating_income_growth": 0.484,
+        "net_income_growth": 0.595
+      },
+      "signals": [
+        "High infrastructure investment",
+        "High profitability",
+        "AI Infrastructure Builder"
+      ],
+      "quality": {
+        "confidence": "medium",
+        "warnings": [],
+        "notes": [
+          "META revenue required fallback extraction logic."
+        ],
+        "fallback_metrics": [
+          "revenue",
+          "previous_revenue"
+        ],
+        "missing_prior_metrics": [],
+        "evidence": {
+          "revenue": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "operating_income": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "net_income": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "capex": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "previous_revenue": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "previous_operating_income": {
+            "present": true,
+            "has_full_evidence": true
+          },
+          "previous_net_income": {
+            "present": true,
+            "has_full_evidence": true
+          }
+        }
+      },
+      "evidence": {
+        "revenue": {
+          "numeric_value": 164501,
+          "unit": "million_usd",
+          "source_keyword": "revenue",
+          "source_snippet": "Revenue $ 164,501 $ 134,902 $ 116,609",
+          "section": "financials",
+          "raw_match": "164,501"
+        },
+        "operating_income": {
+          "numeric_value": 69380,
+          "unit": "million_usd",
+          "source_keyword": "income from operations",
+          "source_snippet": "Income from operations 69,380 46,751 28,944 Interest and other income (expense), net 1,283 677",
+          "section": "financials",
+          "raw_match": "69,380"
+        },
+        "net_income": {
+          "numeric_value": 62360,
+          "unit": "million_usd",
+          "source_keyword": "net income",
+          "source_snippet": "Net income $ 62,360 $ 39,098 $ 23,200",
+          "section": "financials",
+          "raw_match": "62,360"
+        },
+        "capex": {
+          "numeric_value": 37256,
+          "unit": "million_usd",
+          "source_keyword": "purchases of property and equipment",
+          "source_snippet": "Purchases of property and equipment ( 37,256 )",
+          "section": "financials",
+          "raw_match": "37,256"
+        },
+        "previous_revenue": {
+          "numeric_value": 134902,
+          "unit": "million_usd",
+          "source_keyword": "revenue",
+          "source_snippet": "Revenue $ 164,501 $ 134,902 $ 116,609",
+          "section": "financials",
+          "raw_match": "134,902"
+        },
+        "previous_operating_income": {
+          "numeric_value": 46751,
+          "unit": "million_usd",
+          "source_keyword": "income from operations",
+          "source_snippet": "Income from operations 69,380 46,751 28,944 Interest and other income (expense), net 1,283 677",
+          "section": "financials",
+          "raw_match": "46,751"
+        },
+        "previous_net_income": {
+          "numeric_value": 39098,
+          "unit": "million_usd",
+          "source_keyword": "net income",
+          "source_snippet": "Net income $ 62,360 $ 39,098 $ 23,200",
+          "section": "financials",
+          "raw_match": "39,098"
+        }
+      },
+      "takeaways": [
+        "The company combines strong profitability with elevated infrastructure investment, suggesting capacity to fund long-term AI expansion.",
+        "The company is investing heavily in infrastructure relative to revenue.",
+        "The company maintains strong operating profitability."
+      ],
+      "roles": {
+        "infrastructure_builder": true,
+        "ai_hardware_platform": false,
+        "ai_platform_scale": false
+      },
+      "comparable": true
+    }
+  ]
+}

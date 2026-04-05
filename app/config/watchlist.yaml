@@ -23,3 +23,9 @@ companies:
     filing_types:
       - 10-K
       - 10-Q
+  - company_name: Meta Platforms
+    ticker: META
+    cik: "0001326801"
+    filing_types:
+      - 10-K
+      - 10-Q

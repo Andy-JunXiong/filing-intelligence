@@ -1,0 +1,25 @@
+{
+  "company": "NVDA",
+  "filing_type": "10-K",
+  "filing_date": "2024-02-21",
+  "metrics": {
+    "operating_margin": 0.541,
+    "net_margin": 0.488,
+    "capex_ratio": 0.018,
+    "revenue_growth": 1.259,
+    "operating_income_growth": 6.806,
+    "net_income_growth": 5.813
+  },
+  "signals": [
+    {
+      "type": "operating_margin",
+      "value": 0.541,
+      "signal": "High profitability"
+    },
+    {
+      "type": "ai_hardware_platform",
+      "value": 0.541,
+      "signal": "AI Hardware Platform"
+    }
+  ]
+}

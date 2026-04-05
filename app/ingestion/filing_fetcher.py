@@ -61,28 +61,33 @@ def build_sec_submissions_url(company: WatchlistCompany) -> str:
     return f"https://data.sec.gov/submissions/CIK{company.cik.zfill(10)}.json"
 
 
-def find_latest_sec_filing_url(
+def select_sec_filing_metadata(
     company: WatchlistCompany,
+    recent_filings: dict,
     filing_type: str = "10-K",
-    user_agent: str = DEFAULT_SEC_USER_AGENT,
+    filing_year: str | None = None,
+    filing_date: str | None = None,
 ) -> FilingMetadata:
-    """Find the latest filing archive URL for a company and filing type."""
-    submissions_url = build_sec_submissions_url(company)
-    submissions = _fetch_json(submissions_url, user_agent=user_agent)
-    recent_filings = submissions.get("filings", {}).get("recent", {})
-
+    """Select a filing from the SEC recent filings payload using optional year/date filters."""
     forms = recent_filings.get("form", [])
     accession_numbers = recent_filings.get("accessionNumber", [])
     filing_dates = recent_filings.get("filingDate", [])
     primary_documents = recent_filings.get("primaryDocument", [])
 
-    for form, accession_number, filing_date, primary_document in zip(
+    normalized_filing_year = str(filing_year) if filing_year is not None else None
+    normalized_filing_date = str(filing_date) if filing_date is not None else None
+
+    for form, accession_number, current_filing_date, primary_document in zip(
         forms,
         accession_numbers,
         filing_dates,
         primary_documents,
     ):
         if form != filing_type:
+            continue
+        if normalized_filing_year is not None and not str(current_filing_date).startswith(normalized_filing_year):
+            continue
+        if normalized_filing_date is not None and current_filing_date != normalized_filing_date:
             continue
 
         accession_without_dashes = accession_number.replace("-", "")
@@ -94,22 +99,51 @@ def find_latest_sec_filing_url(
             company=company.company_name,
             ticker=company.ticker,
             filing_type=filing_type,
-            filing_date=filing_date,
+            filing_date=current_filing_date,
             source_url=archive_url,
         )
 
-    raise ValueError(f"No recent {filing_type} filing found for {company.ticker}")
+    criteria: list[str] = [filing_type]
+    if normalized_filing_year is not None:
+        criteria.append(f"year={normalized_filing_year}")
+    if normalized_filing_date is not None:
+        criteria.append(f"date={normalized_filing_date}")
+    raise ValueError(f"No recent filing found for {company.ticker} matching {', '.join(criteria)}")
+
+
+def find_latest_sec_filing_url(
+    company: WatchlistCompany,
+    filing_type: str = "10-K",
+    filing_year: str | None = None,
+    filing_date: str | None = None,
+    user_agent: str = DEFAULT_SEC_USER_AGENT,
+) -> FilingMetadata:
+    """Find the latest filing archive URL for a company and filing type."""
+    submissions_url = build_sec_submissions_url(company)
+    submissions = _fetch_json(submissions_url, user_agent=user_agent)
+    recent_filings = submissions.get("filings", {}).get("recent", {})
+    return select_sec_filing_metadata(
+        company=company,
+        recent_filings=recent_filings,
+        filing_type=filing_type,
+        filing_year=filing_year,
+        filing_date=filing_date,
+    )
 
 
 def fetch_sec_filing(
     company: WatchlistCompany,
     filing_type: str = "10-K",
+    filing_year: str | None = None,
+    filing_date: str | None = None,
     user_agent: str = DEFAULT_SEC_USER_AGENT,
 ) -> RawFiling:
     """Download a real SEC filing using the submissions API and filing archive URL."""
     metadata = find_latest_sec_filing_url(
         company=company,
         filing_type=filing_type,
+        filing_year=filing_year,
+        filing_date=filing_date,
         user_agent=user_agent,
     )
     try:

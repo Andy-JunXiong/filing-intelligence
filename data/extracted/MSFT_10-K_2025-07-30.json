@@ -1,0 +1,117 @@
+{
+  "ticker": "MSFT",
+  "filing_type": "10-K",
+  "filing_date": "2025-07-30",
+  "company": "Microsoft",
+  "source_url": "https://www.sec.gov/Archives/edgar/data/789019/000095017025100235/msft-20250630.htm",
+  "financial_metrics": {
+    "revenue": {
+      "value": 281724,
+      "numeric_value": 281724,
+      "raw_value": "281,724",
+      "unit": "million_usd",
+      "source_keyword": "total revenue",
+      "source_snippet": "Total revenue 281,724 245,122 211,915 Cost of revenue: Product 13,501",
+      "section": "financials",
+      "raw_match": "281,724"
+    },
+    "previous_revenue": {
+      "value": 245122,
+      "numeric_value": 245122,
+      "raw_value": "245,122",
+      "unit": "million_usd",
+      "source_keyword": "total revenue",
+      "source_snippet": "Total revenue 281,724 245,122 211,915 Cost of revenue: Product 13,501",
+      "section": "financials",
+      "raw_match": "245,122"
+    },
+    "operating_income": {
+      "value": 128528,
+      "numeric_value": 128528,
+      "raw_value": "128,528",
+      "unit": "million_usd",
+      "source_keyword": "operating income",
+      "source_snippet": "Operating income 128,528 109,433 88,523 Other income (expense), net ( 4,901 )",
+      "section": "financials",
+      "raw_match": "128,528"
+    },
+    "previous_operating_income": {
+      "value": 109433,
+      "numeric_value": 109433,
+      "raw_value": "109,433",
+      "unit": "million_usd",
+      "source_keyword": "operating income",
+      "source_snippet": "Operating income 128,528 109,433 88,523 Other income (expense), net ( 4,901 )",
+      "section": "financials",
+      "raw_match": "109,433"
+    },
+    "net_income": {
+      "value": 101832,
+      "numeric_value": 101832,
+      "raw_value": "101,832",
+      "unit": "million_usd",
+      "source_keyword": "net income",
+      "source_snippet": "Net income $ 101,832 $ 88,136 $ 72,361",
+      "section": "financials",
+      "raw_match": "101,832"
+    },
+    "previous_net_income": {
+      "value": 88136,
+      "numeric_value": 88136,
+      "raw_value": "88,136",
+      "unit": "million_usd",
+      "source_keyword": "net income",
+      "source_snippet": "Net income $ 101,832 $ 88,136 $ 72,361",
+      "section": "financials",
+      "raw_match": "88,136"
+    },
+    "capex": {
+      "value": 64551,
+      "numeric_value": 64551,
+      "raw_value": "64,551",
+      "unit": "million_usd",
+      "source_keyword": "additions to property and equipment",
+      "source_snippet": "Additions to property and equipment ( 64,551",
+      "section": "financials",
+      "raw_match": "64,551"
+    }
+  },
+  "quality": {
+    "confidence": "high",
+    "warnings": [],
+    "missing_current_metrics": [],
+    "missing_prior_metrics": [],
+    "fallback_metrics": [],
+    "incomplete_evidence_metrics": [],
+    "evidence": {
+      "revenue": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "operating_income": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "net_income": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "capex": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "previous_revenue": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "previous_operating_income": {
+        "present": true,
+        "has_full_evidence": true
+      },
+      "previous_net_income": {
+        "present": true,
+        "has_full_evidence": true
+      }
+    }
+  }
+}

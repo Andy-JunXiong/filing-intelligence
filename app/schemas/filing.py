@@ -1,4 +1,4 @@
-from dataclasses import dataclass, field
+from dataclasses import asdict, dataclass, field
 from typing import Any
 
 
@@ -36,6 +36,21 @@ class ParsedFiling:
     metadata: FilingMetadata
     full_text: str
     sections: dict[str, str]
+
+
+@dataclass(frozen=True)
+class ExtractedMetric:
+    value: int | float | None
+    numeric_value: int | float | None
+    raw_value: str | None
+    unit: str | None
+    source_keyword: str
+    source_snippet: str
+    section: str
+    raw_match: str
+
+    def to_dict(self) -> dict[str, Any]:
+        return asdict(self)
 
 
 @dataclass(frozen=True)

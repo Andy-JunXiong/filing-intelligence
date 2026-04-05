@@ -1,0 +1,14 @@
+{
+  "company": "NVDA",
+  "filing_type": "10-K",
+  "filing_date": "2023-02-24",
+  "metrics": {
+    "operating_margin": 0.075,
+    "net_margin": 0.162,
+    "capex_ratio": 0.068,
+    "revenue_growth": 0.002,
+    "operating_income_growth": 0.0,
+    "net_income_growth": -0.552
+  },
+  "signals": []
+}

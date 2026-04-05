@@ -1,6 +1,7 @@
 from app.schemas.comparison import CompanyInsight, ComparisonReport
 from app.schemas.company_signal import CompanySignal
 from app.schemas.filing import (
+    ExtractedMetric,
     FilingMetadata,
     ParsedFiling,
     PipelineStageResult,
@@ -12,6 +13,7 @@ __all__ = [
     "CompanyInsight",
     "CompanySignal",
     "ComparisonReport",
+    "ExtractedMetric",
     "FilingMetadata",
     "ParsedFiling",
     "PipelineStageResult",
